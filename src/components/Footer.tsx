@@ -44,11 +44,11 @@ const Footer = () => {
               <a href="https://youtube.com/@kitpd2s" target="_blank" rel="noreferrer" aria-label="YouTube" className="p-2 rounded-md hover:bg-muted">
                 <Youtube className="w-5 h-5 text-red-500" />
               </a>
+              <a href="https://linkedin.com/company/kitpd2s" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2 rounded-md hover:bg-muted">
+                <Linkedin className="w-5 h-5 text-blue-400" />
+              </a>
               <a href="https://github.com/kitpd2s" target="_blank" rel="noreferrer" aria-label="GitHub" className="p-2 rounded-md hover:bg-muted">
                 <Github className="w-5 h-5" />
-              </a>
-              <a href="https://linkedin.com/company/kitpd2s" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2 rounded-md hover:bg-muted">
-                <Linkedin className="w-5 h-5 text-primary" />
               </a>
               <a href="https://twitter.com/kitpd2s" target="_blank" rel="noreferrer" aria-label="Twitter" className="p-2 rounded-md hover:bg-muted">
                 <Twitter className="w-5 h-5 text-sky-500" />
