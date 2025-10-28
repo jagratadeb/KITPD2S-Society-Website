@@ -166,7 +166,6 @@ const Contact = () => {
                   <div className="space-y-2 text-muted-foreground">
                     <div>Monday - Friday: 9:00 AM - 6:00 PM</div>
                     <div>Saturday: 10:00 AM - 4:00 PM</div>
-                    <div>Sunday: Closed</div>
                   </div>
                 </CardContent>
               </Card>

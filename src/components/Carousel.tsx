@@ -10,17 +10,27 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    name: 'COLLAB 1',
+    name: 'COLLABORATION 1',
     image: '/src/assets/KITPD2S_Logo.png',
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
   {
-    name: 'COLLAB 2',
+    name: 'COLLABORATION 2',
     image: '/src/assets/KITPD2S_Logo.png',
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
   {
-    name: 'COLLAB 3',
+    name: 'COLLABORATION 3',
+    image: '/src/assets/KITPD2S_Logo.png',
+    description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
+  },
+  {
+    name: 'COLLABORATION 4',
+    image: '/src/assets/KITPD2S_Logo.png',
+    description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
+  },
+    {
+    name: 'COLLABORATION 5',
     image: '/src/assets/KITPD2S_Logo.png',
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
@@ -32,7 +42,7 @@ const Carousel = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(timer);
   }, []);

@@ -3,14 +3,25 @@ import TeamSection from '@/components/TeamSection';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
-import { Instagram, Youtube, Github, Linkedin, Twitter } from 'lucide-react';
+import { Instagram, Github, Linkedin, Twitter } from 'lucide-react';
 import KP from '@/assets/KP.png';
 
 const Team = () => {
   const teamMembers = [
     {
       name: 'Koushik Paul',
-      role: 'Frontend Developer',
+      role: 'President',
+      image: KP,
+      bio: 'Expert in React and UI design.',
+      linkedin: 'https://www.linkedin.com/in/koushik-paul',
+      instagram: 'https://www.instagram.com/koushikpaul',
+      github: 'https://github.com/koushikpaul',
+      twitter: 'https://x.com',
+      domain: 'President',
+    },
+    {
+      name: 'Koushik Paul',
+      role: 'President',
       image: KP,
       bio: 'Expert in React and UI design.',
       linkedin: 'https://www.linkedin.com/in/koushik-paul',
@@ -56,7 +67,8 @@ const Team = () => {
       image: KP,
       bio: 'Specializes in Node.js and API architecture.',
       linkedin: 'https://www.linkedin.com/in/example-member',
-      domain: 'Web Dev',
+      instagram: 'https://www.instagram.com',
+      domain: 'President',
     },
     {
       name: 'Koushik Paul',
@@ -77,6 +89,7 @@ const Team = () => {
   ];
 
   const groupedTeams = {
+    'President': teamMembers.filter(m => m.domain === 'President'),
     'Web Dev': teamMembers.filter(m => m.domain === 'Web Dev'),
     'AI/ML': teamMembers.filter(m => m.domain === 'AI/ML'),
     'UI/UX': teamMembers.filter(m => m.domain === 'UI/UX'),
@@ -141,11 +154,6 @@ const Team = () => {
                         {member.twitter && (
                           <a href={member.twitter} target="_blank" rel="noreferrer" aria-label={`${member.name} on Twitter`} className="inline-flex items-center justify-center p-2 rounded-md hover:bg-muted">
                             <Twitter className="w-5 h-5 text-sky-500" />
-                          </a>
-                        )}
-                        {member.youtube && (
-                          <a href={member.youtube} target="_blank" rel="noreferrer" aria-label={`${member.name} on YouTube`} className="inline-flex items-center justify-center p-2 rounded-md hover:bg-muted">
-                            <Youtube className="w-5 h-5 text-red-500" />
                           </a>
                         )}
                       </div>
