@@ -58,3 +58,26 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+
+/* Apply to entire site */
+/* body {
+  cursor: url('/public/KITPD2S_Logo.png') 16 16, auto;
+} */
+
+/* Ensure clickable items still show same custom cursor */
+/* a, button {
+  cursor: url('public/KITPD2S_Logo.png') 16 16, pointer;
+} */
+
+::selection {
+  background-color: hsl(var(--primary)); /* uses Tailwind primary color */
+  color: hsl(var(--primary-foreground)); /* ensures readable contrast */
+}
+
+/* Image drag is disabled*/
+img {
+  pointer-events: none;         
+  -webkit-user-drag: none;       
+  user-select: none;             
+}
