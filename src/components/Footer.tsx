@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Youtube, Github, Linkedin, Twitter } from 'lucide-react';
-import Logo from '@/assets/KITPD2S_Logo.png'
+import Logo from '../assets/KITPD2S_Logo.png'
 
 const Footer = () => {
   const navLinks = [
