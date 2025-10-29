@@ -88,7 +88,7 @@ const Team = () => {
       bio: 'Specializes in Node.js and API architecture.',
       linkedin: 'https://www.linkedin.com/in/example-member',
       instagram: 'https://www.instagram.com',
-      domain: 'President',
+      domain: 'Web Dev',
     },
     {
       name: 'Koushik Paul',
