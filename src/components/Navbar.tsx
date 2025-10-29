@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Logo from '@/assets/KITPD2S_Logo.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center font-orbitron font-black text-primary-foreground">
-              <img src="src/assets/KITPD2S_Logo.png" className='rounded-xl' alt="" />
+              <img src={Logo} className='rounded-xl' alt="" />
             </div>
             <span className="font-orbitron font-bold text-xl">KITPD2S</span>
           </Link>

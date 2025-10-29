@@ -14,8 +14,8 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <BrowserRouter>
-        <Routes>
+      <BrowserRouter basename={import.meta.env.MODE === "production" ? "/KITPD2S-Society-Website/" : ""}>
+          <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/team" element={<Team />} />

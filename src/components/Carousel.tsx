@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Logo from '@/assets/KITPD2S_Logo.png'
 
 interface Slide {
   name: string;
@@ -11,27 +12,27 @@ interface Slide {
 const slides: Slide[] = [
   {
     name: 'COLLABORATION 1',
-    image: '/src/assets/KITPD2S_Logo.png',
+    image: Logo,
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
   {
     name: 'COLLABORATION 2',
-    image: '/src/assets/KITPD2S_Logo.png',
+    image: Logo,
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
   {
     name: 'COLLABORATION 3',
-    image: '/src/assets/KITPD2S_Logo.png',
+    image: Logo,
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
   {
     name: 'COLLABORATION 4',
-    image: '/src/assets/KITPD2S_Logo.png',
+    image: Logo,
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
     {
     name: 'COLLABORATION 5',
-    image: '/src/assets/KITPD2S_Logo.png',
+    image: Logo,    
     description: 'Lorem Ipsum is commonly used in design and development as placeholder text to simulate content.',
   },
 ];

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Youtube, Github, Linkedin, Twitter } from 'lucide-react';
+import Logo from '@/assets/KITPD2S_Logo.png'
 
 const Footer = () => {
   const navLinks = [
@@ -18,7 +19,7 @@ const Footer = () => {
           {/* Branding */}
           <Link to="/" className="flex items-center space-x-3 justify-center md:justify-start">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center font-orbitron font-black text-primary-foreground">
-              <img src="src/assets/KITPD2S_Logo.png" className='rounded-xl' alt="" />
+              <img src={Logo} className='rounded-xl' alt="" />
             </div>
             <span className="font-orbitron font-bold text-xl">KITPD2S</span>
           </Link>
