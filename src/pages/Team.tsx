@@ -21,7 +21,7 @@ const Team = () => {
     },
     {
       name: 'Koushik Paul',
-      role: 'President',
+      role: 'Vice President',
       image: KP,
       bio: 'Expert in React and UI design.',
       linkedin: 'https://www.linkedin.com/in/koushik-paul',
@@ -29,19 +29,19 @@ const Team = () => {
       github: 'https://github.com/koushikpaul',
       twitter: 'https://x.com',
       youtube: 'https://youtube.com',
-      domain: 'Web Dev',
+      domain: 'Vice President',
     },
     {
       name: 'Koushik Paul',
-      role: 'Frontend Developer',
+      role: 'Coordinator',
       image: KP,
       bio: 'Expert in React and UI design.',
       linkedin: 'https://www.linkedin.com/in/koushik-paul',
       instagram: 'https://www.instagram.com/koushikpaul',
       github: 'https://github.com/koushikpaul',
-      domain: 'AI/ML',
+      domain: 'Coordinator',
     },
-      {
+    {
       name: 'Koushik Paul',
       role: 'Frontend Developer',
       image: KP,
@@ -54,6 +54,26 @@ const Team = () => {
     {
       name: 'Koushik Paul',
       role: 'Frontend Developer',
+      image: KP,
+      bio: 'Expert in React and UI design.',
+      linkedin: 'https://www.linkedin.com/in/koushik-paul',
+      instagram: 'https://www.instagram.com/koushikpaul',
+      github: 'https://github.com/koushikpaul',
+      domain: 'Web Dev',
+    },
+    {
+      name: 'Koushik Paul',
+      role: 'Backend Developer',
+      image: KP,
+      bio: 'Expert in Backend.',
+      linkedin: 'https://www.linkedin.com/in/koushik-paul',
+      instagram: 'https://www.instagram.com/koushikpaul',
+      github: 'https://github.com/koushikpaul',
+      domain: 'Web Dev',
+    },
+    {
+      name: 'Koushik Paul',
+      role: 'UI/UX',
       image: KP,
       bio: 'Expert in React and UI design.',
       linkedin: 'https://www.linkedin.com/in/koushik-paul',
@@ -90,6 +110,8 @@ const Team = () => {
 
   const groupedTeams = {
     'President': teamMembers.filter(m => m.domain === 'President'),
+    'Vice President': teamMembers.filter(m => m.domain === 'Vice President'),
+    'Coordinator': teamMembers.filter(m => m.domain === 'Coordinator'),
     'Web Dev': teamMembers.filter(m => m.domain === 'Web Dev'),
     'AI/ML': teamMembers.filter(m => m.domain === 'AI/ML'),
     'UI/UX': teamMembers.filter(m => m.domain === 'UI/UX'),
