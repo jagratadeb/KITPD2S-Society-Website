@@ -48,8 +48,8 @@ const Collaborators = () => {
           </div>
 
           <div className="mt-16 bg-card rounded-2xl p-8 md:p-12 border-2 border-primary/50 text-center animate-scale-in">
-            <h2 className="text-3xl font-orbitron font-bold mb-4 text-primary">Interested in Collaborating?</h2>
-            <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">We're always looking for new partners who share our vision for innovation and education. Let's create something amazing together.</p>
+            <h2 className="text-2xl font-orbitron font-bold mb-4 text-primary">Interested in Collaborating?</h2>
+            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">We're always looking for new partners who share our vision for innovation and education. Let's create something amazing together.</p>
             <Link
               to="/contact"
               className="inline-block w-full md:w-auto px-8 py-3 rounded-2xl font-orbitron text-lg 
